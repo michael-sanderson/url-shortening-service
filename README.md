@@ -84,16 +84,17 @@ For production, replace the in-memory store with a persistent database.
 BASE_URL is currently set to http://localhost:3000 — adjust as needed.
 
 ### *FUTURE IMPROVEMENTS*
-
-Unit test coverage
-Persist URL mappings in a database (MongoDB, Redis, etc.)
-Add analytics (click count, referrer, timestamp)
-Add meaningful logging - as middleware
-Widen validation
-Generate more meaningful codes (visually or stylistically tied to original URL)
-Explicitly prevent short url code collisions
-
+```text
+- Unit test coverage
+- Persist URL mappings in a database (MongoDB, Redis, etc.)
+- Add analytics (click count, referrer, timestamp)
+- Add meaningful logging - as middleware
+- Widen validation
+- Generate more meaningful codes (visually or stylistically tied to original URL)
+- Explicitly prevent short url code collisions
+```
 ### *TIME SPENT*
 
 
 100 Minutes as of writing this README which is 10:17 06/02/2026 - I may return to consider some optionals within the spec before interview. 
+
